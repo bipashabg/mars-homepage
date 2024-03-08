@@ -38,8 +38,8 @@ function scrollHeader(){
 }
 window.addEventListener('scroll', scrollHeader)
 
-/*==================== SWIPER DISCOVER ====================*/
-let swiper = new Swiper(".discover__container", {
+/*==================== SWIPER gallery ====================*/
+let swiper = new Swiper(".gallery__container", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
@@ -121,7 +121,7 @@ const sr = ScrollReveal({
 
 
 sr.reveal(`.home__data, .home__social-link, .home__info,
-           .discover__container,
+           .gallery__container,
            .experience__data, .experience__overlay,
            .place__card,
            .sponsor__content,
